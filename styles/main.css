@@ -90,3 +90,19 @@ video {
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 1400px) {
+  .page__title:hover::before {
+    left: 30%;
+  }
+}
+@media (max-width: 1200px) {
+  .page__title:hover::before {
+    left: 10%;
+  }
+}
+@media (max-width: 950px) {
+  .page__title:hover::before {
+    left: 0%;
+  }
+}
